@@ -4,4 +4,4 @@ name 'My First Game'
 # Without specify resolution it will default to 640, 480
 resolution 800, 600
 
-first_scene
+first_scene 'title'
