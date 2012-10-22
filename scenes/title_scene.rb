@@ -14,4 +14,12 @@ class TitleScene < Metro::Scene
     'model' => 'metro::models::menu'
 
 
+  def start_game
+    puts "Starting the Game"
+  end
+
+  def exit_game
+    exit
+  end
+  
 end
