@@ -5,5 +5,13 @@ class TitleScene < Metro::Scene
     'x-factor' => 3, 'y-factor' => 3,
     'color' => 0xffffffff,
     'model' => 'metro::models::label'
+    
+  draw :menu,  'x' => 320, 'y' => 240, 'z-order' => 0,
+    'padding' => 40,
+    'color' => 0xffffffff,
+    'highlight-color' => 0xffffff00,
+    'options' => [ 'Start Game', 'Exit Game' ],
+    'model' => 'metro::models::menu'
+
 
 end
