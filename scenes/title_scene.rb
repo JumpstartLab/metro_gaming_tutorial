@@ -3,7 +3,7 @@ class TitleScene < Metro::Scene
   draws :title, :menu, :player
 
   def start_game
-    puts "Starting the Game"
+    transition_to 'title_transition'
   end
 
   def exit_game
