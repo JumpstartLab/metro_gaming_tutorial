@@ -16,3 +16,10 @@ menu:
   padding: 40
   color: 0xffffffff
   highlight-color: 0xffffff00
+player:
+  model: 'metro::models::image'
+  path: 'player.png'
+  x: 730
+  y: 70
+  z-order: 0
+  color: 0xffffffff
