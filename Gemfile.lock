@@ -1,0 +1,12 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    gosu (0.7.45)
+    metro (0.0.6)
+      gosu (~> 0.7)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  metro (= 0.0.6)
